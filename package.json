@@ -1,0 +1,30 @@
+{
+  "name": "hackathon-portal-api",
+  "version": "1.0.0",
+  "description": "API for Allstate Hackathon Portal",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET MONGODB_URL=mongodb://localhost:27017 && node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://infygit.ad.infosys.com/allstate-hackathon-portal/hackathon-portal-api.git"
+  },
+  "keywords": [
+    "Allstate Hackathon",
+    "NodeJS",
+    "Express",
+    "MongoDb"
+  ],
+  "author": "ashwin.shenoy01@infosys.com",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "log4js": "^3.0.6",
+    "mongodb": "^3.1.10",
+    "multer": "^1.4.1",
+    "serve-static": "^1.13.2"
+  }
+}
